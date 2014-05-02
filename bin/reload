@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var childProcess = require('child_process');
+
+process.title = 'reload';
+
+var baseDirectory = process.cwd();
+var gruntfile = __dirname + '/../Gruntfile.js';
+var grunt = childProcess.spawn('grunt', ['--base-directory', baseDirectory, '--gruntfile', gruntfile], { stdio: 'inherit' });

@@ -1,15 +1,19 @@
 {
-  "author": "Diogo Correia <inlogic@gmail.com>",
   "name": "devuo-reload",
-  "version": "0.0.0",
+  "author": "Diogo Correia <inlogic@gmail.com>",
+  "description": "Grunt based CLI tool to reload and refresh browser on file changes that match specific patterns.",
+  "version": "0.0.1",
   "licenses": {
     "type": "",
     "url": ""
   },
   "bugs": "",
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "git://github.com/devuo/reload.git"
+  },
+  "bin": {
+    "reload": "bin/reload"
   },
   "dependencies": {},
   "devDependencies": {
