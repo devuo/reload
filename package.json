@@ -2,7 +2,7 @@
   "name": "devuo-reload",
   "author": "Diogo Correia <inlogic@gmail.com>",
   "description": "Grunt based CLI tool to reload and refresh browser on file changes that match specific patterns.",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "licenses": [
     {
       "type": "MIT",
