@@ -1,0 +1,19 @@
+{
+  "author": "Diogo Correia <inlogic@gmail.com>",
+  "name": "devuo-reload",
+  "version": "0.0.0",
+  "licenses": {
+    "type": "",
+    "url": ""
+  },
+  "bugs": "",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.0"
+  }
+}
