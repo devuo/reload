@@ -1,17 +1,29 @@
 reload
 ======
+> A Grunt based CLI tool to reload and refresh browser on file changes that match specific patterns.
 
-Grunt based CLI tool to reload and refresh browser on file changes that match specific patterns.
+## Installation
 
-** Note: ** This is not fit for public consumption as it's basically a quick hack :-)
+Install this globally and you'll have access to the `reload` command anywhere on your system.
 
-** How to use: **
-
-* Checkout the project.
-* Install node packages.
-* Install grunt-cli.
-* Add the following alias to your CLI profile.
-
+```shell
+npm install -g devuo-reload
 ```
-alias reload="grunt --base-directory $(pwd) --gruntfile PATH_TO_REPOSITORY/Gruntfile.js"
+
+**Note:** You need to install the **LiveReload extension** on your browser besides running `reload` on the CLI.
+
+## How to Use
+Go to the folder that you want to watch and execute the following command:
+
+```shell
+reload
 ```
+
+The reload command will track changes to the **supported extensions** and if any of them changes will call a reload.
+Activate the LiveReload extension on your browser, and as soon as you change one of the files your browser will reload.
+
+### Supported Extensions
+Only files that match the following extensions will be tracked by reload.
+
+* .css
+* .tpl.php
