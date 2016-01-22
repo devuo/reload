@@ -27,3 +27,5 @@ Only files that match the following extensions will be tracked by reload.
 
 * .css
 * .tpl.php
+* .twig
+* .js

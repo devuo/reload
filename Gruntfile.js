@@ -6,7 +6,7 @@ module.exports = function (grunt) {
 
   // File Patterns
   // --------------------------------------------------------------------------
-  var extensions = ['.css', '.tpl.php'];
+  var extensions = ['.css', '.tpl.php', '.twig', '.js'];
   var filePatterns = [];
 
   for (var i = 0; i < extensions.length; i++) {
